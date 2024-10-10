@@ -2,840 +2,1437 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhananjai - Personal Portfolio</title>
 
-    <title>Dhananjai p | Fullstack Web Developer</title>
-    <meta content="Dhananjai p | Fullstack Developer | PHP Developer " name="description">
-    <meta content="" name="keywords">
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo-d.png" type="image/x-icon">
 
-    <!-- Favicons -->
-    <!-- <link href="assets/works/sv-logo.png" rel="icon">
-    <link href="assets/works/sv-logo.png" rel="apple-touch-icon"> -->
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-    <style>
-        .item .item-wrap>.work-info {
-            top: unset;
-            bottom: 5%;        
-        }
-        .item .work-info h3{
-            font-size: 1rem;
-            margin: 14px 0 10px;
-            min-height: 40px;
-        }
-        .visit-link {
-            margin-bottom: 0;
-            display: inline-block;
-            width: fit-content;
-            border-radius: 6px 6px;
-            background: #f8f9fa;
-            position: relative;
-            text-align: center;
-            color: #0d1e2d;
-            padding: 3px 9px;
-            font-size: .8rem;
-        }
-        .visit-link i{}
-        .item .work-info span{
-            color: #777;
-            display: none;
-        }
-
-        @media screen and (max-width: 768px){
-            .custom-navbar>.container {
-                padding: 15px !important;
-            }
-            .section {
-                padding-top: 2rem !important;
-            }
-        }
-        @media (min-width: 769px) and (max-width: 1400px){
-            .item .work-info h3{
-                font-size: .8rem !important;
-                margin: 14px 0 10px;
-                min-height: 40px;
-            }
-        }
-
-
-
-    </style>
-
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
-    <!-- ======= Navbar ======= -->
+  <!--
+    - #MAIN
+  -->
 
+  <main>
 
-    <nav class="navbar navbar-light custom-navbar">
-        <div class="container">
-            <a class="navbar-brand" href="">MyPortfolio.</a>
-            <div>
-                <a class="" href="mailto:dhananjaikrishna8@gmail.com">dhananjaikrishna8@gmail.com</a>
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/dhananjai-proffessional.jpg" alt="Dhananjai P" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Dhananjai P">Dhananjai P</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
             </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:dhananjaikrishna8@gmail.com" class="contact-link">dhananjaikrishna8@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+918139878124" class="contact-link">+91 8139 8781 24</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">DOB</p>
+
+              <time datetime="1982-06-23">March 20, 1999</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Karanthoor, Calicut, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a target="_blank" href="https://x.com/Dhananjaiiii" class="social-link">
+              <i class="fa-brands fa-x-twitter"></i></a>
+          </li>
+
+          <li class="social-item">
+            <a target="_blank" href="https://www.instagram.com/mancub.__/" class="social-link">
+              <i class="fa-brands fa-instagram"></i></a>
+          </li>
+
+          <li class="social-item">
+            <a target="_blank" href="https://www.linkedin.com/in/dhananjai-p" class="social-link">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </li>
+
+
+
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m a Full Stack Web Developer specializing in both front-end and back-end development. My passion lies in
+            crafting dynamic and scalable web applications that deliver exceptional user experiences.My role involves building comprehensive web solutions that are not only functional but also highly
+            interactive and user-friendly.
+          </p>
+
+          <p>
+             I excel in integrating front-end aesthetics with robust back-end systems to
+            create seamless and efficient applications. I focus on turning complex requirements into intuitive and
+            engaging user interfaces, ensuring that your web presence is both powerful and easy to navigate.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Front-End Development</h4>
+
+                <p class="service-item-text">
+                  Built responsive, user-friendly interfaces with interactive elements.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Back-End Development</h4>
+
+                <p class="service-item-text">
+                  Managed databases and implemented server-side logic for efficient and secure data handling.
+                </p>
+              </div>
+
+            </li>
+
+            <!-- <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li> -->
+
+            <!-- <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li> -->
+
+          </ul>
+
+        </section>
+
+        <section class="skill"></section>
+
+        <h3 class="h3 skills-title">My skills</h3>
+
+        <ul class="skills-list content-card">
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">HTML</h5>
+              <!-- <data value="80">95%</data> -->
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 90%;"></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">CSS</h5>
+              <!-- <data value="70">80%</data> -->
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 85%;"></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">PHP</h5>
+              <!-- <data value="90">80%</data> -->
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 70%;"></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">JavaScript</h5>
+              <!-- <data value="50">50%</data> -->
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 70%;"></div>
+            </div>
+
+          </li>
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Laravel</h5>
+              <!-- <data value="50">50%</data> -->
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 60%;"></div>
+            </div>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">MySQL</h5>
+              <!-- <data value="50">50%</data> -->
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 75%;"></div>
+            </div>
+
+          </li>
+
+        </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <!-- <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
 
         </div>
-    </nav>
 
-    <main id="main">
 
-        <!-- ======= Works Section ======= -->
-        <section class="section site-portfolio">
-            <div class="container">
-                <div class="row mb-5 align-items-center">
-                    <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
-                        <h2>Hey, I'm Dhananjai P</h2>
-                        <p class="mb-0">Fullstack Web Developer</p>
-                    </div>
-                    <div class="col-md-12 col-lg-6 text-start text-lg-end" data-aos="fade-up" data-aos-delay="100">
-                        <div id="filters" class="filters">
-                            <a href="#" data-filter="*" class="active">All (12)</a>
-                            <a href="#" data-filter=".web">Website (11)</a>
-                            <a href="#" data-filter=".web-app">Web Applications (1)</a>
+        <!--
+          - clients
+        -->
 
-                        </div>
-                    </div>
-                </div>
-                <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
+        <!-- <section class="clients">
 
+          <h3 class="h3 clients-title">Clients</h3>
 
-                    <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://nitc.ac.in/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/1-work-nitc-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>National Institute of Technology Calicut</h3>
-                            <span>Fontend | Backend</span>
-                        </div>
-                    </div>
+          <ul class="clients-list has-scrollbar">
 
-                    <div class="item web web-app col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://www.posbank.in/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/3-work-posbank-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>POSBANK</h3>
-                            <span>Fontend | Backend</span>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
 
-                        </div>
-                    </div>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
 
-                    <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://www.manojgeorge.com/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-manojgeorge-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Manoj George </h3>
-                            <span>Fontend | Backend</span>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
 
-                        </div>
-                    </div>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
 
-                    <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://xctllp.com/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/5-work-xc-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>XpertConsortium Technologies</h3>
-                            <span>Fontend | Backend</span>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
 
-                        </div>
-                    </div>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
 
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://farookcollege.ac.in/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/6-work-farook-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Farook College</h3>
-                            <span>Fontend | Backend</span>
+          </ul>
 
-                        </div>
-                    </div> -->
+        </section> -->
 
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://pbsmrida.com/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-mrida-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>MRIDA </h3>
-                            <span>Fontend | Backend</span>
+      </article>
 
-                        </div>
-                    </div> -->
 
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://www.palamurbio.com/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-palamur-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Palamur Biosciences </h3>
-                            <span>Fontend | Backend</span>
 
-                        </div>
-                    </div> -->
 
-                    <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://kmct.edu.in/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/2-work-kmctgroup-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>KMCT Group of Institutions</h3>
-                            <span>Fontend | Backend</span>
 
-                        </div>
-                    </div>
+      <!--
+        - #RESUME
+      -->
 
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://mdit.ac.in/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-mdit-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>M. Dasan Institute of Technology</h3>
-                            <span>Fontend | Backend</span>
+      <article class="resume" data-page="resume">
 
-                        </div>
-                    </div> -->
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
 
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://emteesacademy.com/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/22-work-emtees-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Emtees Academy</h3>
-                            <span>Fontend | Backend</span>
+        <section class="timeline">
 
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web-app col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://wefix.qa/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/4-work-wefix-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Wefix</h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <div class="item web  col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://lifescool.app/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/7-work-lifescool-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Lifescool</h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div>
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://www.sparks.vc/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/11-work-sparks-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Sparks</h3>
-                            <span>Fontend </span>
-
-                        </div>
-                    </div> -->
-
-                    <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://mathlabresearch.com/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/18-work-mathlab-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Mathlab Research</h3>
-                            <span>Fontend</span>
-
-                        </div>
-                    </div>
-
-                    <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://www.preciouspictures.in/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/19-work-precious-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Precious Pictures</h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div>
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://rendery.io/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/10-work-rendery-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Rendery</h3>
-                            <span>Fontend </span>
-
-                        </div>
-                    </div> -->
-
-                    <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://venturefactory.ai/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/13-work-venturefactory-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Venture Factory</h3>
-                            <span>Fontend</span>
-
-                        </div>
-                    </div>
-
-                    <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://wytfox.in/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/15-work-wytfox-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Wytfox</h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div>
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://www.tiekeralaawards.com/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/12-work-tiekerala-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Tie Kerala Awards</h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-<!-- 
-                    <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://www.tshproi.com/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/17-work-tshproi-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Tshproi</h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://www.raizer.ai/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/21-work-raizer-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Raizer</h3>
-                            <span>Fontend</span>
-
-                        </div>
-                    </div>
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://nhcon.org/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/20-work-nhcon-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>National Hospital College of Nursing</h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://ksb.kmctcoe.ac.in/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/16-work-ksb-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>KMCT School of Business</h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://www.kmctpolytechnic.org/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/24-work-kmct-poly-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>KMCT Polytechnic College</h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://kmcttti.org/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/25-work-kmcttti-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>KMCT Teacher Training institute</h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://kmctcte.org/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/23-work-kmctcte-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>KMCT College of Teacher Education </h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://kmctcoe.ac.in/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/9-work-kmctcoe-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>KMCT College of Engineering</h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://kmctcew.ac.in/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/8-work-kmctcew-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>KMCT College of Engineering for Women</h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://kmctcak.org/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/14-work-kmctcak-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>KMCT College of Architecture </h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-
-
-                    <!-- <div class="item web-app col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://nefesdevelopers.com/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-nefes-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Nefes Developers</h3>
-                            <span>Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web web-app col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://wiselearningapp.com/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-wise-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Wise Learning</h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web-app col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://app.eduonlearning.com/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-eduon-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Eduon Learning</h3>
-                            <span>Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web-app col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://app.thincdes.com/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-thinc-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Thinc</h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- New -->
-
-                    <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://aguaer.com/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-aguaer-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Aguaer </h3>
-                            <span>Fontend </span>
-
-                        </div>
-                    </div>
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://www.amigoz.me/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-amigoz-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Amigoz </h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://asioa.org/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-asioa-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Asioa </h3>
-                            <span>Fontend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://play.google.com/store/apps/details?id=com.majoc.basari&pcampaignid=web_share" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-basari-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Majoc Group </h3>
-                            <span>Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://www.britnets.com/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-britnets-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Britnets </h3>
-                            <span>Fontend </span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://deepanjalihome.com/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-deepanjali-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Deepanjali Home </h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://kmctcak.org/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/14-work-kmctcak-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>KMCT College of Architecture </h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://www.doctorg.es/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-doctorg-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Dr. G. Yohannan</h3>
-                            <span>Fontend</span>
-
-                        </div>
-                    </div> -->
-
-                    <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://www.drsayidfahad.com/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-drfahad-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Dr Sayid Fahad </h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div>
-
-                    
-
-                    
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://pmicse.farookcollege.ac.in/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-pmfarook-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>PM Farook </h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://skyladderconstruction.com/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-skyladder-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Skyladder Developers</h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://www.swethanursinghome.com/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-swetha-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Swetha Nursing Home </h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web-app col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://kmctcak.org/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-vipfitness-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>VIP Fitness </h3>
-                            <span>Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://kmctcak.org/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/14-work-kmctcak-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>KMCT College of Architecture </h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="item web col-sm-6 col-md-3 col-lg-3 mb-4">
-                        <a href="https://www.vvnmuthalam.com/" target="_blank" class="item-wrap fancybox">
-                            <div class="work-info">
-                                <p class="visit-link">Visit <i class='fas fa-external-link-alt'></i> </p>
-                            </div>
-                            <img class="img-fluid" src="assets/works/work-vvnm-logo.png">
-                        </a>
-                        <div class="work-info">
-                            <h3>Vivekananda Vidyanikethan </h3>
-                            <span>Fontend | Backend</span>
-
-                        </div>
-                    </div> -->
-
-
-
-
-
-
-                </div>
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
-        </section><!-- End  Works Section -->
 
+            <h3 class="h3">Education</h3>
+          </div>
 
+          <ol class="timeline-list">
 
+            <li class="timeline-item">
 
-    </main><!-- End #main -->
+              <h4 class="h4 timeline-item-title">Calicut university</h4>
 
-    <!-- ======= Footer ======= -->
-    <footer class="footer" role="contentinfo">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
+              <span>2016 — 2019</span>
 
-                </div>
-                <div class="col-sm-6 social text-md-end">
+              <p class="timeline-text">
+                Bachelor of Commerce (B.Com) from Calicut University. During my studies, I gained comprehensive
+                knowledge in business and financial principles, accounting, and economic theories. My coursework
+                included subjects like financial management, business law, and marketing, which provided a solid
+                foundation for understanding business operations and financial analysis.
+              </p>
 
-                    <!-- <a target="_blank" href="https://www.facebook.com/satheesh.vinayakan"><span class="bi bi-facebook"></span></a>
-                    <a target="_blank" href="https://www.instagram.com/satheesh_vinayakan/"><span class="bi bi-instagram"></span></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/satheesh-vinayakan-7203b216b/"><span class="bi bi-linkedin"></span></a> -->
-                </div>
+            </li>
+            <!-- 
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">New york academy of art</h4>
+
+              <span>2014 — 2016</span>
+
+              <p class="timeline-text">
+                Completed secondary education with a focus on commerce. During this period, I studied subjects such as economics, business studies, and accountancy, which laid the groundwork for my further studies in commerce and business. This education provided me with a solid understanding of fundamental business principles and financial management.
+              </p>
+
+            </li> -->
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school of art and design</h4>
+
+              <span>2002 — 2004</span>
+
+              <p class="timeline-text">
+                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
+              </p>
+
+            </li> -->
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
-        </div>
-    </footer>
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+            <h3 class="h3">Experience</h3>
+          </div>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+          <ol class="timeline-list">
 
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Accounting Assistant </h4>
+
+              <span>March 2020 - February 2023</span>
+
+              <p class="timeline-text">
+                At Grace Associates, I was responsible for overseeing daily cash operations, including managing the receipt, counting, and deposit of funds associated with loan payments and disbursements. I maintained accurate tracking of client payments for various financial products, ensuring timely updates within the accounts receivable system. Additionally, I handled the reconciliation of accounts payable for vendor services related to financial operations, ensuring that payments were settled promptly and efficiently.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Developer Intern</h4>
+
+              <span>2023 May — 2023 Julay</span>
+
+              <p class="timeline-text">
+                Interned at XpertConsortium Technologies as a Web Developer Intern, where I learned HTML, CSS,
+                JavaScript, and database management. I contributed to various projects, gaining practical experience in
+                both front-end and back-end development.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Full stack Web Developer</h4>
+
+              <span>2023 — August 2024</span>
+
+              <p class="timeline-text">
+                Worked at XpertConsortium Technologies as a Full Stack Developer, contributing to 15+ projects by
+                developing and integrating both front-end and back-end solutions. Gained extensive experience in project
+                development, implementation, and team collaboration, ensuring the successful delivery of high-quality
+                software solutions across various domains.
+              </p>
+
+            </li>
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web designer</h4>
+
+              <span>2010 — 2013</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li> -->
+
+
+
+          </ol>
+
+          <ol class="timeline-list dowload-cv">
+            <a href="assets/cv/Dhananjai-Resume.pdf" download="DhananjaiCV.pdf"  class="btn">
+              <strong>Download CV</strong>
+              <div id="container-stars">
+                <div id="stars"></div>
+              </div>
+
+              <div id="glow">
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </a>
+          </ol>
+
+
+
+
+        </section>
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Websites</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Applications</button>
+            </li>
+
+            <!-- <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li> -->
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Websites</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <!-- <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li> -->
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <!-- <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li> -->
+
+            <li class="project-item  active" data-filter-item data-category="Websites">
+              <a target="_blank" href="https://Raizer.ai/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/projects/new/21-work-raizer-logo.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Raizer.ai</h3>
+
+                <!-- <p class="project-category">Web development</p> -->
+
+              </a>
+            </li>
+
+    
+
+            <li class="project-item  active" data-filter-item data-category="Websites">
+              <a target="_blank" href="https://venturefactory.ai/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/projects/new/13-work-venturefactory-logo.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">venturefactory.ai</h3>
+
+                <!-- <p class="project-category">Websites</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Websites">
+              <a target="_blank" href="https://www.drsayidfahad.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/projects/new/work-drfahad-logo.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Dr.Sayid Fahad</h3>
+
+                <!-- <p class="project-category">Websites</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Websites">
+              <a target="_blank" href="https://www.manojgeorgeschoolofmusic.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/projects/new/work-manojgeorge-logo.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Manoj George School of Music</h3>
+
+                <!-- <p class="project-category">Websites</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Websites">
+              <a target="_blank" href="https://www.wytfox.in/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/projects/new/15-work-wytfox-logo.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Wytfox</h3>
+
+                <!-- <p class="project-category">Websites</p> -->
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="Web Applications">
+              <a target="_blank" href="https://support.posbank.in/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/projects/3-work-posbank-logo.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">support.posbank</h3>
+
+                <!-- <p class="project-category">Applications</p> -->
+
+              </a>
+            </li>
+            
+
+            <li class="project-item  active" data-filter-item data-category="Websites">
+              <a target="_blank" href="https://www.posbank.in/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/projects/new/3-work-posbank-logo.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">POSBANK</h3>
+
+                <!-- <p class="project-category">Websites</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Websites">
+              <a target="_blank" href="https://nitc.ac.in/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/projects/new/1-work-nitc-logo.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">National Institute of Technology Calicut</h3>
+
+                <!-- <p class="project-category">Websites</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Websites">
+              <a target="_blank" href="https://xctllp.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/projects/new/5-work-xc-logo.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">XpertConsortium Technologies</h3>
+
+                <!-- <p class="project-category">Web development</p> -->
+
+              </a>
+            </li>
+
+    
+
+            <li class="project-item  active" data-filter-item data-category="Websites">
+              <a target="_blank" href="https://kmct.edu.in/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/projects/new/2-work-kmctgroup-logo.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">KMCT Group of Institutions</h3>
+
+                <!-- <p class="project-category">Web development</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Websites">
+              <a target="_blank" href="https://lifescool.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/projects/new/7-work-lifescool-logo.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Lifescool</h3>
+
+                <!-- <p class="project-category">Web development</p> -->
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="Websites">
+              <a target="_blank" href="https://mathlabresearch.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/projects/new/18-work-mathlab-logo.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mathlab Research</h3>
+
+                <!-- <p class="project-category">Web development</p> -->
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="Websites">
+              <a target="_blank" href="https://www.preciouspictures.in/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/projects/new/19-work-precious-logo.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Precious Pictures</h3>
+
+                <!-- <p class="project-category">Web development</p> -->
+
+              </a>
+            </li>
+
+
+
+            <li class="project-item  active" data-filter-item data-category="Websites">
+              <a target="_blank" href="https://aguaer.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/projects/new/work-aguaer-logo.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Aguaer</h3>
+
+                <!-- <p class="project-category">Web development</p> -->
+
+              </a>
+            </li>
+
+
+
+            <li class="project-item  active" data-filter-item data-category="Websites">
+              <a target="_blank" href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/projects/new/perfi-work.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Perfi</h3>
+
+                <!-- <p class="project-category">Web development</p> -->
+
+              </a>
+            </li>
+
+
+
+            <li class="project-item  active" data-filter-item data-category="Websites">
+              <a target="_blank" href="https://www.beyondz.ai/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/projects/new/beyondz.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">BeyondZ</h3>
+
+                <!-- <p class="project-category">Web development</p> -->
+
+              </a>
+            </li>
+
+
+            <!-- <li class="project-item  active" data-filter-item data-category="Websites">
+              <a href="https://kmct.edu.in/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/projects/new/2-work-kmctgroup-logo.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">KMCT Group of Institutions</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <!-- <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article> -->
+
+
+
+
+
+      <!--
+        - #CONTACT width="400" height="300" loading="lazy"
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15649.903150018892!2d75.85068444482197!3d11.299893172117848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65cf1705a3d4d%3A0x61fb0a53ea661e40!2sKaranthur%2C%20Kerala%20673571!5e0!3m2!1sen!2sin!4v1726809991086!5m2!1sen!2sin"
+              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <!-- <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section> -->
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
